@@ -64,6 +64,18 @@ section>div {
      flex-direction: column;
      align-content: space-between;
 }
+
+div.button-container, button.deal {
+     display: flex
+}
+
+div.button-container {
+     justify-content: center;
+     margin-top: 3%;
+}
+button.deal {
+     justify-content: center;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
