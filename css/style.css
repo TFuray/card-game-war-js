@@ -78,6 +78,16 @@ div.button-container {
 button.deal {
      justify-content: center;
 }
+
+footer, footer div, footer div button {
+     display: flex;
+}
+footer {
+     justify-content: center;
+}
+footer div button {
+     margin-top: 200px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
