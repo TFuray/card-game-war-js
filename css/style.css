@@ -33,7 +33,9 @@ header {
      align-content: center;
 }
 
-header span {
+header button {
+     margin-left: 45%;
+     width: 10%;
      font-size: 1.2rem;
      font-weight: 400;
      display: flex;
