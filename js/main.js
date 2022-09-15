@@ -84,36 +84,21 @@ different approach
 -----------------------------------------------------*/
 
 //players hands and discards
-let player1hand = []
-let player1discard = []
-let player2hand = []
-let player2discard = []
+// let player1hand = []
+// let player1discard = []
+// let player2hand = []
+// let player2discard = []
 
-// defining base url and key for fetch requests
-const baseURL = 'https://deckofcardsapi.com/api/deck/'
-let deck = '9z38e0ox0ekz'
-const FetchFirstDraw = fetch(`${baseURL}${deck}/draw/?count=26`)
-const FetchAddPile1 = fetch(`${baseURL}${deck}/pile/player1/add/?cards=${player1hand}`)
+// // defining base url and key for fetch requests
+// const baseURL = 'https://deckofcardsapi.com/api/deck/'
+// let deck = '9z38e0ox0ekz'
+// const fetchFirstDraw = fetch(`${baseURL}${deck}/draw/?count=26`)
+// const fetchAddPile1 = fetch(`${baseURL}${deck}/pile/player1/add/?cards=${player1hand}`)
 
-// grab refereces
-const player1Card = document.querySelector('#player1')
-const player2Card = document.querySelector('#player2')
-const startButton = document.querySelector('#start-game')
-const nextCard = document.querySelector('#deal')
+// // grab refereces
+// const player1Card = document.querySelector('#player1')
+// const player2Card = document.querySelector('#player2')
+// const startButton = document.querySelector('#start-game')
+// const nextCard = document.querySelector('#deal')
 
-function getDeckID(){
-    fetch(`https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1`)
-        .then(res => res.json())
-        .then(data => {
-           deck = data.deck_id
-        })
-}
 
-function submitMove(e) {
-    fetchMove(e)
-}
-
-function fetchMove(e) {
-    e.preventDefault()
-
-}
