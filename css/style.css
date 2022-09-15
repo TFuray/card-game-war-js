@@ -46,7 +46,11 @@ header button {
 h2{
      font-weight: 400;
 }
-
+h3{
+     display: flex;
+     align-content: center;
+     justify-content: center;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -75,8 +79,13 @@ div.button-container {
      justify-content: center;
      margin-top: 3%;
 }
-button.deal {
+button#deal {
      justify-content: center;
+     width: 20%;
+     margin-left: 40%;
+     
+     
+     
 }
 
 footer, footer div, footer div button {
@@ -87,6 +96,12 @@ footer {
 }
 footer div button {
      margin-top: 200px;
+}
+#next-hand{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     
 }
 /******************************************
 /* ADDITIONAL STYLES
