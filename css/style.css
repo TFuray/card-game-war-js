@@ -88,8 +88,9 @@ button#deal {
      
 }
 
-footer, footer div, footer div button {
+footer, footer div, footer div button, div span {
      display: flex;
+     
 }
 footer {
      justify-content: center;
@@ -102,6 +103,11 @@ footer div button {
      flex-direction: column;
      align-content: center;
      
+}
+div span{
+     justify-content: center;
+     margin-top: 20px;
+
 }
 /******************************************
 /* ADDITIONAL STYLES
